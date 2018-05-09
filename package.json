@@ -1,5 +1,5 @@
 {
-  "name": "middleware-js",
+  "name": "middleware-nodejs",
   "version": "1.0.0",
   "description": "middleware pattern implementation ",
   "main": "app.js",

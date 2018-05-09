@@ -5,7 +5,7 @@ Zero dependencies middleware implementation. Each middleware function shall be c
 ### Installation
 
 ```
-npm install --save middleware-js
+npm install --save middleware-nodejs
 ```
 
 ### Usage
