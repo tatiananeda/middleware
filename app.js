@@ -21,7 +21,9 @@ class Middleware {
 }
 
 handle(...args) {
-  this.middlewares[0](...args);
+  if ( this.middlewares.length > 0 ){
+    this.middlewares[0](...args);
+  }
 }
 }
 
