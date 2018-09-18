@@ -11,6 +11,7 @@ class Middleware {
     const idx = this.middlewares.length;
     const func = (...args) => fn(...args, () => this.next(idx, ...args));
     this.middlewares = this.middlewares.concat(func);
+    return this;
   }
 
   next(idx, ...args) {
